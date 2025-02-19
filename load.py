@@ -280,7 +280,7 @@ def handle_bgmi(message):
     
     try:
         subprocess.Popen(
-            ["./Test", target, str(port), str(duration)],
+            ["./Sagar", target, str(port), str(duration)],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL
         )
